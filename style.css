@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lugrasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+* {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.content {
+    width: 1400px;
+    background: #77A1D3;
+    background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);
+    background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);
+    margin-bottom: 300px;
+}
+
+table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nome {
+    font-size: 10px;
+}
+
+span {
+    font-size: 10px;
+}
+
+.title {
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.la-Lu {
+    padding-top: 12px;
+}
+
+.c-lr {
+    padding-top: 12px;
+}
+
+td {
+    text-align: center;
+}
+
+td,
+th {
+    padding: 5px;
+    /* Espaçamento dentro das células */
+    border: 1px solid black;
+    /* Borda para visualização */
+    border-radius: 10px;
+    width: 5%;
+    /* Definindo a largura das células igualmente */
+    transition: transform 0.5s ease-in-out;
+    /* Adicionando transição para a animação */
+}
+
+td:hover,
+th:hover {
+    transform: scale(2.1);
+    /* Aplicando o efeito de zoom */
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 3px;
+    /* Margem entre as células */
+}
+
+.none {
+    border: none;
+}
+
+.elemento {
+    font-size: 18px;
+}
+
+.color1 {
+    background-color: #00b6bc;
+}
+
+.color2 {
+    background-color: #1b67c9;
+}
+
+.color3 {
+    background-color: #a1669f;
+}
+
+.color4 {
+    background-color: #004e75;
+}
+
+.color5 {
+    background-color: #f53951;
+}
+
+.color6 {
+    background-color: #f5b659;
+}
+
+.color7 {
+    background-color: #f36d4a;
+}
+
+.color8 {
+    background-color: #59cf6e;
+}
+
+.color9 {
+    background-color: #329090;
+}
+
+.color10 {
+    background-color: #562d56;
+}
+
+.color11 {
+    background-color: #859998;
+}
+
+
+/* Flickering animation */
+
+@keyframes flicker {
+    0%,
+    17%,
+    33%,
+    50%,
+    66%,
+    83%,
+    100% {
+        text-shadow: 0 0 5px #fff, 0 0 10px #0fa, 0 0 20px #0fa, 0 0 40px #0fa, 0 0 70px #0fa, 0 0 110px #0fa, 0 0 160px #0fa
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        text-shadow: none;
+    }
+}
+
+td:hover {
+    filter: brightness(200%);
+    color: black;
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+    color: rgb(10, 10, 10);
+    padding: 100px;
+    /* Adiciona um espaçamento interno ao footer */
+}
